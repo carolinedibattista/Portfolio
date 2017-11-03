@@ -1,0 +1,660 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Caroline M DiBattista - Portfolio</title>
+
+	<link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="images/favicons/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="images/favicons/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="images/favicons/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="images/favicons/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="images/favicons/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="images/favicons/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="images/favicons/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+	<link rel="manifest" href="images/favicons//manifest.json">
+	
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<link rel="stylesheet" type="text/css" href="css/foundation.min.css">
+	<link rel="stylesheet" type="text/css" href="css/foundation-icons.css">
+	<link rel="stylesheet" type="text/css" href="css/magic.min.css">
+	<link rel="stylesheet" type="text/css" href="css/colorbox.css">
+	<link rel="stylesheet" type="text/css" href="css/timeline.css">
+	<link rel="stylesheet" type="text/css" href="css/codedogResume.css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather|Noto+Sans" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+	<!-- 
+	Implementing an off-canvas menu regardless of the media being used to view
+	the web site.  Menu items are grouped into product sections.
+	-->
+	<div class="off-canvas position-right" id="flyInMenu" data-off-canvas data-transition="overlap">
+		<!-- Close button in fly out menu -->
+		<button class="close-menu closeMenuButton" aria-label="Close Menu" type="button" data-close>
+			<span>&nbsp;&times;&nbsp;Close Menu</span>
+		</button>
+
+		<!-- Menu list options in fly out menu -->
+		<ul class="flyInNavMainMenu flyInNav vertical menu">
+			<li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="links.html">Links</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="resume.html">Resume</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+
+	</div>  <!-- End of off-canvas menu -->
+ 
+
+
+	<div id="pageTop" class="off-canvas-content" data-off-canvas-content>
+	<!-- The content of my site goes here, including the footer -->
+	
+		<div data-sticky-container>
+			<div class="title-bar" data-sticky data-options="marginTop:0;">
+				<div class="title-bar-left">
+					<span class="title-bar-title">
+						<div class="medium-3 hide-for-small-only columns">
+							<p class="text-center"><img src="images/logoXSm.png" alt="DiBattista Logo" title="DiBattista Logo"></p>
+						</div>
+						<div class="small-12 medium-9 columns">
+							<p class="siteIdentity"><a href="index.html">Caroline M DiBattista</a></p>
+							<p class="siteDescription">Front End Developer/Designer</p>
+						</div>
+					</span>
+				</div>
+
+				<div class="title-bar-right">    <!--  paddingRight  -->
+					<button class="menu-icon dark show-for-small-only" type="button" data-open="flyInMenu"></button>
+
+					<ul class="dropdown menu hide-for-small-only" data-dropdown-menu>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="links.html">Links</a></li>
+						<li><a href="about.html">About</a></li>
+						<li class="selectedOption"><a href="resume.html">Resume</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="headerSection">
+			<div>
+				<h1>Resume</h1>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="small-12 columns">
+				<blockquote>
+					I am passionate about programming and design and the challenge of turning user-centric designs into real-life applications.
+				</blockquote>
+			</div>
+		</div>
+		
+
+		<!-- 
+		  -- Creating a waypoint so that when the skill set animation kicks off when the
+		  -- skill set section is displayed.
+		  -->
+		<div id="waypointSkillSetAnimation"></div>
+
+
+		<!-- Summary in Years -->
+		<div id="yearsSummary" class="sectionSpacerSm">
+			<div class="row">
+				<div class="small-12 medium-3 columns boxShadow">
+					<p class="yrsExperience textWhite">10+</p>
+					<h4 class="text-center">Applications Design</h4>
+					<p class="text-center yrsLabel">(Years)</p>
+				</div>
+
+				<div class="medium-1 columns hide-for-small-only">
+					<p>&nbsp;</p>
+				</div>
+
+				<div class="small-12 medium-4 columns boxShadow">
+					<p class="yrsExperience textWhite">20+</p>
+					<h4 class="text-center">Programming</h4>
+					<p class="text-center yrsLabel">(Years)</p>
+				</div>
+
+				<div class="medium-1 columns hide-for-small-only">
+					<p>&nbsp;</p>
+				</div>
+				
+				<div class="small-12 medium-3 columns boxShadow">
+					<p class="yrsExperience textWhite">5+</p>
+					<h4 class="text-center">Management</h4>
+					<p class="text-center yrsLabel">(Years)</p>
+				</div>
+			</div>
+
+		</div>
+
+
+		<hr id="skillSet" class="sectionSpacerMed">
+
+
+		<!-- Skill Set -->
+		<div>
+			<div class="row">
+				<div class="small-12 columns">
+					<h2>Skill Set</h2>
+				</div>
+			</div>
+		
+			<div class="row">
+				<div class="small-12 medium-6 large-4 columns summaryBox">
+					<h5>Professional Skills</h5>
+				
+					<ul class="skillSet">
+						<li>HTML5
+							<div id="skillHTML" class="sliderWrapper">
+								<div class="sliderFillBar"></div>
+								<div class="sliderDot"></div>
+							</div>
+						</li>
+
+						<li>CSS3
+							<div id="skillCSS3" class="sliderWrapper">
+								<div class="sliderFillBar"></div>
+								<div class="sliderDot"></div>
+							</div>
+						</li>
+
+						<li>JavaScript
+							<div id="skillJavaScript" class="sliderWrapper">
+								<div class="sliderFillBar"></div>
+								<div class="sliderDot"></div>
+							</div>
+						</li>
+
+						<li>jQuery
+							<div id="skilljQuery" class="sliderWrapper">
+								<div class="sliderFillBar"></div>
+								<div class="sliderDot"></div>
+							</div>
+						</li>
+
+						<li>Bootstrap
+							<div id="skillBootstrap" class="sliderWrapper">
+								<div class="sliderFillBar"></div>
+								<div class="sliderDot"></div>
+							</div>
+						</li>
+
+						<li>Foundation
+							<div id="skillFoundation" class="sliderWrapper">
+								<div class="sliderFillBar"></div>
+								<div class="sliderDot"></div>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+
+				<!-- 
+				  -- Creating a waypoint so that when the skill set animation kicks off when the
+				  -- skill set section is displayed.
+				  -->
+				<div id="waypointExperienceAnimation"></div>
+				
+
+				<div class="small-12 medium-6 large-4 columns summaryBox">
+					<h5>Additional Skills</h5>
+				
+					<ul class="skillSet">
+						<li>Adobe Design Tools
+							<div id="skillAdobeTools" class="sliderWrapper">
+								<div class="sliderFillBar"></div>
+								<div class="sliderDot"></div>
+							</div>
+						</li>
+
+						<li>UI/UX
+							<div id="skillUIUX" class="sliderWrapper">
+								<div class="sliderFillBar"></div>
+								<div class="sliderDot"></div>
+							</div>
+						</li>
+
+						<li>Usability Testing
+							<div id="skillUsabilityTesting" class="sliderWrapper">
+								<div class="sliderFillBar"></div>
+								<div class="sliderDot"></div>
+							</div>
+						</li>
+
+						<li>Photography
+							<div id="skillPhotography" class="sliderWrapper">
+								<div class="sliderFillBar"></div>
+								<div class="sliderDot"></div>
+							</div>
+						</li>
+
+						<li>Digital Publishing
+							<div id="skillDigitalPublishing" class="sliderWrapper">
+								<div class="sliderFillBar"></div>
+								<div class="sliderDot"></div>
+							</div>
+						</li>
+
+						<li>Technical Writing
+							<div id="skillTechnicalWriting" class="sliderWrapper">
+								<div class="sliderFillBar"></div>
+								<div class="sliderDot"></div>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<div class="small-12 medium-6 large-4 columns summaryBox">
+					<h5>Personal Skills</h5>
+				
+					<ul class="skillSet">
+						<li>Analytical
+							<div id="skillAnalytical" class="sliderWrapper">
+								<div class="sliderFillBar"></div>
+								<div class="sliderDot"></div>
+							</div>
+						</li>
+
+						<li>Creative
+							<div id="skillCreative" class="sliderWrapper">
+								<div class="sliderFillBar"></div>
+								<div class="sliderDot"></div>
+							</div>
+						</li>
+
+						<li>Committed
+							<div id="skillCommitted" class="sliderWrapper">
+								<div class="sliderFillBar"></div>
+								<div class="sliderDot"></div>
+							</div>
+						</li>
+
+						<li>Detail Oriented
+							<div id="skillDetailOriented" class="sliderWrapper">
+								<div class="sliderFillBar"></div>
+								<div class="sliderDot"></div>
+							</div>
+						</li>
+
+						<li>Communication Skills
+							<div id="skillCommunication" class="sliderWrapper">
+								<div class="sliderFillBar"></div>
+								<div class="sliderDot"></div>
+							</div>
+						</li>
+
+						<li>Leadership/Management
+							<div id="skillLeadership" class="sliderWrapper">
+								<div class="sliderFillBar"></div>
+								<div class="sliderDot"></div>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<div class="medium-6 columns show-for-medium-only">
+					<p class="text-center sectionSpacerMed">
+						<a class="thumbnailWalkForAnimalsSm" href="images/walkForAnimals/walkForAnimalsPosterSmEmbedded.jpg" title="Walk For Animals" alt="Walk For Animals">
+							<img src="images/walkForAnimals/walkForAnimalsPosterSm.jpg" alt="Walk For Animals" title="Walk For Animals">
+						</a>
+					</p>
+				</div>
+			</div>
+			
+		</div>   <!--  Skill Set  -->
+		
+
+		
+		<hr id="workExperience" class="sectionSpacerMed">
+		
+		<!-- Work Experience -->
+
+		<div>
+			<div class="row">
+				<div class="small-12 columns">
+					<h2>Key Achievements</h2>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="workExperienceSummary">
+					<div class="small-12 columns show-for-small-only">
+						<a class="thumbnailWalkForAnimalsMobile" href="images/walkForAnimals/walkForAnimalsPosterMobileEmbedded.jpg" title="Walk For Animals" alt="Walk For Animals">
+							<img class="walkForAnimals boxShadow" src="images/walkForAnimals/walkForAnimalsPoster.jpg" alt="Walk For Animals poster" title="Walk For Animals poster">
+						</a>
+					</div>
+
+					<div class="large-4 columns show-for-large">
+						<a class="thumbnailWalkForAnimals" href="images/walkForAnimals/walkForAnimalsPosterEmbedded.jpg" title="Walk For Animals" alt="Walk For Animals">
+							<img class="walkForAnimals boxShadow" src="images/walkForAnimals/walkForAnimalsPoster.jpg" alt="Walk For Animals poster" title="Walk For Animals poster">
+						</a>
+					</div>
+					
+					<div class="small-12 large-8 columns">
+						<ul>
+							<li>Expanded Sotera Wireless’ sales and marketing position from “General Care” units to “Telemetry” units by designing/developing a fully interactive telemetry prototype, including arrhythmia displays.
+							</li>
+							
+							<li>Developed a web-based training tool for Sotera's customer base to enable existing and new clinicians to further their understanding and skills with Sotera's ViSi Mobile Monitor.
+							</li>
+							
+							<li>Developed a web-based prototype for the configuration setup for each of Sotera's customer installations.
+							</li>
+							
+							<li>Enabled the Oracle Volunteers’ Team to measure the success of their yearly Volunteer Day activities with the design and implementation of a new web site.
+							</li>
+							
+							<li>Removed the burden of software upgrades from the Technical Support team by creating a detailed step-by-step upgrade document and scripts that enabled non-technical employees to help perform the over-night upgrades.
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>   <!--  Work Experience  -->
+
+
+
+		<hr id="workTimeline" class="sectionSpacerMed">
+
+		
+		<!-- Work Timeline -->
+		<div>
+			<div class="row">
+				<div class="small-12 columns">
+					<h2>Work Timeline</h2>
+				</div>
+			</div>
+			
+				
+			<div class="row">
+				<div id="card"> 
+					<div class="front cursorPointer timelineBackground">
+						<div class="timeLine">
+
+							<!-- 
+							The company name and dates are repeated twice as they are displayed differently depending 
+							on which media they are being viewed on.
+
+							On a mobile media only, the company name and corresponding dates are displayed to the right of
+							the timeline.  On all other media, this information is displayed to the left of the timeline.
+							-->
+							<div class="workSection">
+								<div class="workGroup">
+									<p class="hide-for-small-only timelineCompany">Sotera Wireless</p>
+									<p class="hide-for-small-only timelineDates">2009 - 2016</p>
+								</div>
+
+								<div class="workSummary">
+									<p class="show-for-small-only timelineCompany">Sotera Wireless</p>
+									<p class="show-for-small-only timelineDates">2009 - 2106</p>
+
+									<p class="timelinePosition">Principal Apps Designer, Sr. Apps Designer</p>
+
+									<ul>
+										<li class="timelineAchievement">Designed/developed interactive telemetry unit prototype</li>
+										<li class="timelineAchievement">Principal designer for the ViSi Mobile Monitoring System</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="workSection">
+								<div class="workGroup">
+									<p class="hide-for-small-only timelineCompany">AkeLex</p>
+									<p class="hide-for-small-only timelineDates">2007 - 2009</p>
+								</div>
+
+								<div class="workSummary">
+									<p class="show-for-small-only timelineCompany">AkeLex</p>
+									<p class="show-for-small-only timelineDates">2007 - 2009</p>
+
+									<p class="timelinePosition">Application Designer</p>
+
+									<ul>
+										<li>Designed an iPhone application for diabetics</li>
+										<li>Created an interactive web demo for the Sales team</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="workSection">
+								<div class="workGroup">
+									<p class="hide-for-small-only timelineCompany">Daverci LLC</p>
+									<p class="hide-for-small-only timelineDates">2006 - 2007</p>
+								</div>
+
+								<div class="workSummary">
+									<p class="show-for-small-only timelineCompany">Daverci LLC</p>
+									<p class="show-for-small-only timelineDates">2006 - 2007</p>
+
+									<p class="timelinePosition">Product Support &amp; Deployment Manager</p>
+
+									<ul>
+										<li>Created new scripts to streamline software upgrades process</li>
+										<li>Created standards for formal documentation and procedures</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="workSection">
+								<div class="workGroup">
+									<p class="hide-for-small-only timelineCompany">Oregon Steel Mills</p>
+									<p class="hide-for-small-only timelineDates">2005</p>
+								</div>
+
+								<div class="workSummary">
+									<p class="show-for-small-only timelineCompany">Oregon Steel Mills</p>
+									<p class="show-for-small-only timelineDates">2005</p>
+
+									<p class="timelinePosition">Contractor</p>
+
+									<ul>
+										<li>Developed/modified features using PL/SQL</li>
+										<li>Provided system admin support to the IT manager</li>
+									</ul>
+								</div>
+							</div>
+
+						</div>   <!-- Timeline  -->
+
+						<p class="text-center">
+							<img src="images/dotGrayDark.png" alt="Selection Dot" title="Selection Dot">
+							&nbsp;
+							<img src="images/dotGrayLight.png" alt="Selection Dot" title="Selection Dot">
+						</p>
+					</div>  <!-- Flip: Front of card  -->
+					
+					<div class="back cursorPointer timelineBackground">
+						<div class="timeLine">
+
+							<!-- 
+							The company name and dates are repeated twice as they are displayed differently depending 
+							on which media they are being viewed on.
+
+							On a mobile media only, the company name and corresponding dates are displayed to the right of
+							the timeline.  On all other media, this information is displayed to the left of the timeline.
+							-->
+							<div class="workSection">
+								<div class="workGroup">
+									<p class="hide-for-small-only timelineCompany">Menlo Worldwide</p>
+									<p class="hide-for-small-only timelineDates">2004 - 2005</p>
+								</div>
+
+								<div class="workSummary">
+									<p class="show-for-small-only timelineCompany">Menlo Worldwide</p>
+									<p class="show-for-small-only timelineDates">2004 - 2005</p>
+
+									<p class="timelinePosition">Senior Systems Analyst</p>
+
+									<ul>
+										<li>Developed/modified features in PL/SQL</li>
+										<li>Key player in defining documentation standards</li>
+									</ul>
+								</div>
+							</div>
+					
+
+							<!-- 
+							  -- Creating a waypoint so that when the user scrolls down the hobby icons will 
+							  -- be displayed with animation.
+							  -->
+							<div id="waypointHobbiesAnimation"></div>
+							
+
+							<div class="workSection">
+								<div class="workGroup">
+									<p class="hide-for-small-only timelineCompany">Oracle Corporation</p>
+									<p class="hide-for-small-only timelineDates">1994 - 2003</p>
+								</div>
+
+								<div class="workSummary">
+									<p class="show-for-small-only timelineCompany">Oracle Corporation</p>
+									<p class="show-for-small-only timelineDates">1994 - 2003</p>
+
+									<p class="timelinePosition">Product Manager, Dev. Manager, Sr. Programmer</p>
+
+									<ul>
+										<li>Created web site for Oracle Volunteers' Volunteer Day activities</li>
+										<li>Developed a web portal for Business Intelligence reports</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="workSection">
+								<div class="workGroup">
+									<p class="hide-for-small-only timelineCompany">Cedardata PLC</p>
+									<p class="hide-for-small-only timelineDates">1992 - 1994</p>
+								</div>
+
+								<div class="workSummary">
+									<p class="show-for-small-only timelineCompany">Cedardata PLC</p>
+									<p class="show-for-small-only timelineDates">1992 - 1994</p>
+
+									<p class="timelinePosition">Analyst / Programmer</p>
+
+									<ul>
+										<li>Implemented features using Oracle tools suite and C</li>
+										<li>Liaised with customers to explain functionality of features</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="workSection">
+								<div class="workGroup">
+									<p class="hide-for-small-only timelineCompany">Paradigm (UK) Limited</p>
+									<p class="hide-for-small-only timelineDates">1991 - 1992</p>
+								</div>
+
+								<div class="workSummary">
+									<p class="show-for-small-only timelineCompany">Paradigm (UK) Limited</p>
+									<p class="show-for-small-only timelineDates">1991 - 1992</p>
+
+									<p class="timelinePosition">Software Engineer</p>
+
+									<ul>
+										<li>Implemented/modified features using Oracle tools suite</li>
+										<li>Maintained product's Entity-Relationship diagrams</li>
+									</ul>
+								</div>
+							</div>
+
+						</div>   <!-- Timeline  -->
+						
+						<p class="text-center">
+							<img src="images/dotGrayLight.png" alt="Selection Dot" title="Selection Dot">
+							&nbsp;
+							<img src="images/dotGrayDark.png" alt="Selection Dot" title="Selection Dot">
+						</p>
+
+						
+					</div>  <!-- Flip: Back of card  -->
+				</div>	<!--  card  -->	
+			</div>
+		</div>  <!-- workTimeLine  -->
+
+		
+		<div class="sectionSpacerMed">&nbsp;</div>
+
+
+		<footer id="footerSection">
+			<div class="row">
+				<!-- 
+				On a mobile device, where the footer contents are stacked, the social media icons will
+				be placed at the top of the 'stack', followed by contact information and then the dog.  
+				On devices where the contents are displayed in one row, the dog will be displayed on 
+				the left-hand side, the contact information in the center and then the social media 
+				icons will be displayed on the right-hand-side.
+				-->
+				<!--  Social Media  -->
+				<div class="small-12 medium-2 medium-push-9 columns sectionSpacerSm">
+					<p><a href="http://www.linkedin.com/in/carolinedibattista" target="new">
+						<i class="fontIcons noPadding fi-social-linkedin"></i>
+
+					&nbsp; &nbsp;   <!-- Creating some space between the two icons.  -->
+					</a>
+					
+					<a href="https://www.flickr.com/photos/140374865@N08/" target="new">
+						<i class="fontIcons noPadding fi-social-flickr"></i>
+					</a></p>
+				</div>
+				
+				<!--  Contact & Copyright  -->
+				<div class="small-12 medium-6 medium-offset-1 columns">
+					<div class="sectionSpacerMed hide-for-small-only"></div>
+					<div class="sectionSpacerSm show-for-small-only"></div>
+					
+					<p>caroline.dibattista@gmail.com<br>
+					   Mobile: 503 330 0557</p>
+					   
+					<p class="text-center sectionSpacerMed"><a href="pdfFiles/dibattistaResume.pdf" target="_new"><img src="images/footer/resumeWhite.png" title="DiBattista Resume" alt="DiBattista Resume"></a> &nbsp; &nbsp;
+					<a href="pdfFiles/dibattistaPortfolioDesign.pdf" target="_new"><img src="images/footer/caseStudyWhite.png" title="DiBattista Portfolio Design Brief" alt="DiBattista Porfolio Design Brief"></a></p>
+					
+					<p class="copyright sectionSpacerMed">Copyright 2017 Caroline M. DiBattista<br>All Rights Reserved</p>
+				</div>
+				
+				<!--  
+				Logo...
+				A smaller logo and additional spacing is used when displayed on a mobile device.
+				-->
+				<div class="small-12 show-for-small-only columns">
+					<p class="text-center"><img class="sectionSpacerSm" src="images/logoSm.png" alt="DiBattista Logo" title="DiBattista Logo"></p>
+				</div>
+				
+				<div class="medium-3 medium-pull-9 hide-for-small-only columns">
+					<p class="text-center"><img class="sectionSpacerLg" src="images/logoMed.png" alt="DiBattista Logo" title="DiBattista Logo"></p>
+				</div>
+			</div>   <!-- End of row  -->
+		</footer>
+
+	
+	</div>    <!-- div id="pageTop"  -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> 
+    <script src="js/foundation.min.js"></script>
+   	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.colorbox.js"></script>
+	<script src="js/jquery.flip.min.js"></script>
+   	<script src="js/codedogResume.js"></script>
+
+</body>
+</html>

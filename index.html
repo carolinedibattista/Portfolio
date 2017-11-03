@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Caroline M DiBattista - Portfolio</title>
+
+	<link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="images/favicons/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="images/favicons/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="images/favicons/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="images/favicons/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="images/favicons/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="images/favicons/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="images/favicons/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+	<link rel="manifest" href="images/favicons//manifest.json">
+	
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	
+	<link rel="stylesheet" type="text/css" href="css/foundation.min.css">
+	<link rel="stylesheet" type="text/css" href="css/foundation-icons.css">
+	<link rel="stylesheet" type="text/css" href="css/codedogHomePage.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Merriweather|Noto+Sans" rel="stylesheet">
+	
+</head>
+
+
+<body class="homePage">
+
+	<!-- 
+	Implementing an off-canvas menu regardless of the media being used to view
+	the web site.  Menu items are grouped into product sections.
+	-->
+	<div class="off-canvas position-right" id="flyInMenu" data-off-canvas data-transition="overlap">
+		<!-- Close button in fly out menu -->
+		<button class="close-menu closeMenuButton" aria-label="Close Menu" type="button" data-close>
+			<span>&nbsp;&times;&nbsp;Close Menu</span>
+		</button>
+
+		<!-- Menu list options in fly out menu -->
+		<ul class="flyInNavMainMenu flyInNav vertical menu">
+			<li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="links.html">Links</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="resume.html">Resume</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+
+	</div>  <!-- End of off-canvas menu -->
+ 
+
+
+	<div id="pageTop" class="off-canvas-content" data-off-canvas-content>
+	<!-- The content of my site goes here, including the footer -->
+	
+		<div data-sticky-container>
+			<div class="title-bar" data-sticky data-options="marginTop:0;">
+				<div class="title-bar-left">
+					<span class="title-bar-title">
+						<div class="medium-3 hide-for-small-only columns">
+							<p class="text-center"><a href="index.html"><img src="images/logoXSm.png" alt="DiBattista Logo" title="DiBattista Logo"></a></p>
+						</div>
+						<div class="small-12 medium-9 columns">
+							<p class="siteIdentity"><a href="index.html">Caroline M DiBattista</a></p>
+							<p class="siteDescription">Front End Developer/Designer</p>
+						</div>
+					</span>
+				</div>
+
+				<div class="title-bar-right">    <!--  paddingRight  -->
+					<button class="menu-icon dark show-for-small-only" type="button" data-open="flyInMenu"></button>
+
+					<ul class="dropdown menu hide-for-small-only" data-dropdown-menu>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="links.html">Links</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="resume.html">Resume</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		
+		<!-- Main Image  -->
+		<div class="homePageStatement">
+			<p id="portfolioStatement" class="positionStatement">Programming and design… where the right-brain and left-brain dance in harmony.&nbsp;&nbsp;</p>
+		</div>
+		
+	</div>    <!-- div id="pageTop"  -->
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> 
+    <script src="js/foundation.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+   	<script src="js/codedogHomePage.js"></script>
+
+</body>
+</html>

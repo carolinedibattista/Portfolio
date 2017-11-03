@@ -1,0 +1,502 @@
+/* -----------------------------------------------------
+//  Filename: resume.css
+//
+//  Styles for the portfolio web site
+//
+//  #4319ff (Blue)
+//  #1C0294 (Navy Blue)
+//  #00FF00 (Green)
+// ----------------------------------------------------- */
+body
+{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 1rem;
+	margin: 0 auto;
+}
+
+.bodyCopyText
+{
+	padding-left: 1%;
+	padding-right: 1%;
+	text-align: justify;
+	font-size: 16px;
+}
+
+.boxShadow
+{
+	box-shadow: 0 5px 35px rgba(50, 50, 93, 0.1), 0 0px 5px rgba(0, 0, 0, 0.07);
+}
+
+
+/* -----------------------------------------------------
+//  Fly in menu styling.  On small displays, the menu 
+//  will display full-screen width.  All other displays,
+//  the default width is used.
+// ----------------------------------------------------- */
+
+#flyInMenu
+{
+  padding-bottom: 5%;
+  background-color: rgba(255, 255, 255, 0.90)   /*#a5afb7;  */
+}
+	
+.flyInNavMainMenu
+{
+	margin-top: 15%;
+}
+
+.flyInNav
+{
+	font-size: .95rem;
+	color: red;
+}
+
+.flyInNav li a
+{
+	color: #000000;
+}
+
+.flyInNav li a:hover
+{
+	color: #1C0294;
+}
+
+.menu.nested 
+{
+	margin-left: 2.25rem; 
+}
+
+.closeMenuButton
+{
+	margin-top: 5%;
+    font-size: 0.95rem;
+    line-height: 1; 
+}
+
+
+/* -----------------------------------------------------
+//  Modifying the title bar remove the black 
+//  background and to stylize the text display.
+// ----------------------------------------------------- */
+.menuBar
+{
+	margin: 0 0;
+	padding: 0 5% 10% 0;
+	background-color: #FFFFFF;
+}
+
+.title-bar-title 
+{
+	width: 120%;
+}
+
+.title-bar {
+	padding: 2% 0.5rem 1.25rem;
+	background: #FFFFFF;
+	width: 100%;
+}
+
+.title-bar a
+{
+	font-family: 'Merriweather', serif;
+	color: #000000;
+	font-weight: 400;
+	font-size: 1.125rem;
+}
+
+.title-bar .subMenu a
+{
+	font-size: 0.875rem;
+	text-align: left;
+}
+
+.submenu-parent .selectedOption a
+{
+	color: #B1B1B1;
+}
+
+.is-dropdown-submenu 
+{
+  border: 0px;
+}
+
+.siteIdentity 
+{
+	font-family: 'Merriweather', serif;
+	font-size: 1rem;
+	font-weight: 400;
+	color: #000000;
+	text-align: left;
+	margin-bottom: 0;
+}
+
+.siteDescription 
+{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 0.75rem;
+	color: #000000;
+	text-align: left;
+	font-weight: 100;
+}
+
+@media (min-width: 48em)   /* iPad  */
+{
+	.title-bar a
+	{
+		font-size: 0.9375rem;
+	}
+	
+	.title-bar .siteIdentity a
+	{
+		font-size: 1.125rem;
+	}
+}
+
+@media (min-width: 64em)   /* iPad Pro  */
+{
+	.title-bar
+	{
+		padding-right: 2%;
+		padding-left: 2%;
+	}
+	
+	.title-bar a
+	{
+		font-size: 1.25rem;
+	}
+	
+	.title-bar .siteIdentity a
+	{
+		font-size: 1.5rem;
+	}
+	
+	.siteDescription 
+	{
+		font-size: 0.875rem;
+	}
+}
+
+
+/* -----------------------------------------------------
+//  Section Spacers
+// ----------------------------------------------------- */
+.sectionSpacerXSm
+{
+	margin-top: 3%;
+}
+
+.sectionSpacerSm
+{
+	margin-top: 5%;
+}
+
+.sectionSpacerMed
+{
+	margin-top: 10%;
+}
+
+.sectionSpacerLg
+{
+	margin-top: 20%;
+}
+
+
+/* -----------------------------------------------------
+//  Header display
+// ----------------------------------------------------- */
+
+.headerSection
+{
+	padding-top: 2%;
+	padding-bottom: 0%;
+	background-color: #FFFFFF;
+	text-align: center;
+	color: #272c30;
+}
+
+.excerptText
+{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 0.875rem;
+}
+
+.noPaddingBottom
+{
+	padding-bottom: 0px;
+}
+
+
+
+/* -----------------------------------------------------
+//  Footer components
+// ----------------------------------------------------- */
+footer
+{
+	background-color: #272727;
+	margin: 0% 0%;
+	padding: 3% 0% 2%;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.copyright
+{
+	font-size: 0.75rem;
+	color: #707070;
+}
+
+
+/* -----------------------------------------------------
+//  Social Media icons.
+// ----------------------------------------------------- */
+.fontIcons
+{
+	font-size: 2.5rem;
+	padding-left: 2% 2%;
+	color: #FFFFFF;
+}
+
+.fontIcons:hover
+{
+	color: #00FF00;
+}
+
+.socialMedia li a
+{
+	color: #FFFFFF;
+}
+
+
+/* -----------------------------------------------------
+//  Header Tag components
+// ----------------------------------------------------- */
+
+h1
+{
+	font-family: 'Merriweather', serif;
+	font-weight: normal;
+	font-size: 1.5rem;
+	padding-bottom: 3%;
+}
+
+@media (min-width: 48em)   /* iPad  */
+{
+	h1
+	{
+		font-size: 2.25rem;
+	}
+}
+@media (min-width: 64em)   /* iPad Pro  */
+{
+	h1
+	{
+		font-size: 3.25rem;
+	}
+}
+
+h2
+{
+	margin: 2% auto 6% auto;
+	font-family: 'Merriweather', serif;
+	font-size: 1.375rem;    /*  2rem  */
+	font-weight: bold;
+	color: #1C0294;
+}
+
+@media (min-width: 48em)   /* iPad  */
+{
+	h2
+	{
+		font-size: 1.875rem;
+	}
+}
+
+@media (min-width: 64em)   /* iPad Pro  */
+{
+	h2
+	{
+		font-size: 2.375rem;   /*  1.625  */
+	}
+}
+
+h3
+{
+	font-family: 'Merriweather', serif;
+	font-size: 1.25rem;
+	font-weight: bold;
+	color: #1C0294;
+	padding: 0.5% 0% 0%;
+	margin: 0% 0%;
+}
+
+@media (min-width: 48em)   /* iPad  */
+{
+	h3
+	{
+		font-size: 1.625rem;
+		padding: 5% 0% 3%;
+	}
+}
+
+h4
+{
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	font-size: 0.9375rem;
+	font-style: italic;
+	color: #1C0294;
+	padding: 5% 0% 1%;
+}
+
+@media (min-width: 48em)   /* iPad  */
+{
+	h4
+	{
+		padding: 5% 0% 1%;
+	}
+}
+
+h5
+{
+	font-family: 'Merriweather', serif;
+	font-size: 1.5rem;
+	color: #c7c7c7;
+	margin: 5% 5% 8%;
+}
+
+
+hr
+{
+	margin-bottom: 5%;
+}
+
+
+
+/* 
+----------------------------------------------------------------------
+Code Snippets
+----------------------------------------------------------------------
+*/
+.codeSnippetBox
+{
+	font-family: "Courier 10 Pitch", Courier, monospace;
+	font-size: 8px;
+	font-weight: 700;
+	padding: 2% 3%;
+	margin-bottom: 3%;
+	background-color: rgba(0,255,0,0.05);
+}
+
+@media (min-width: 48em)   /* iPad  */
+{
+	.codeSnippetBox
+	{
+		font-size: 10px;
+	}
+}
+
+@media (min-width: 64em)   /* iPad Pro  */
+{
+	.codeSnippetBox
+	{
+		font-size: 14px;
+	}
+}
+
+
+.codeSnippet
+{
+	margin-bottom: 3px;
+}
+
+
+.indentLeft
+{
+	padding-left: 5%;	
+}
+
+/* Primarily used to display code with the correct indentation.  */
+.indentLeftDouble
+{
+	padding-left: 10%;	
+}
+
+/* Primarily used to display code with the correct indentation.  */
+.indentLeftTriple
+{
+	padding-left: 15%;	
+}
+
+.indentLeftQuadrouple
+{
+	padding-left: 20%;	
+}
+
+.indentLeft5
+{
+	padding-left: 25%;	
+}
+
+
+
+
+
+/* -----------------------------------------------------
+//  Text Displays
+// ----------------------------------------------------- */
+.announcementText
+{
+	font-family: 'Merriweather', serif;
+	color: #000000;
+	text-align: justify;
+	
+	margin-top: 2%;
+	font-size: 1.125rem;
+}
+
+@media screen and (min-width: 40em)    /* iPad */
+{
+	.announcementText
+	{
+		font-size: 1.375rem;
+	}
+}
+	
+.highlight {
+  background: #fff198;
+}
+
+.colourSwatchLabel
+{
+	font-size: 0.8125rem;
+	text-align: center;
+}
+
+@media (min-width: 48em)   /* iPad Pro */
+{
+	.colourSwatchLabel
+	{
+		font-size: 1rem;
+	}
+}
+
+
+/* -----------------------------------------------------
+//  Carousel Slider
+// ----------------------------------------------------- */
+.slick-slide {
+  margin: 0px 20px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+	color: black;
+}
+
+
